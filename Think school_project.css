@@ -1,0 +1,224 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    margin: 0px;
+
+
+
+
+}
+
+.left img {
+    margin: 25px 70px;
+    width: 250px;
+    height: 200px;
+    border: 1px solid darkcyan;
+    border-radius: 15px;
+
+}
+
+.mid {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+    /* border: 2px solid blue; */
+
+}
+
+.right {
+    border: 2px solid paleturquoise;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 50px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.navbar li a {
+    display: inline-block;
+    color: rgb(231, 136, 11);
+    padding: 10px 55px;
+    text-decoration: none;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: purple;
+    text-decoration: underline;
+
+
+}
+
+.btn {
+    padding: 13px 17px;
+    border-radius: 10px;
+    border: 1px solid goldenrod;
+    margin: 0px 5px;
+    font-size: 45px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(32, 32, 8);
+    color: aqua;
+    padding: 25px 30px;
+
+}
+
+.left div {
+    background-color: aqua;
+    border: 5px double yellowgreen;
+}
+
+.container {
+    font-family: cursive;
+
+    margin-top: 70px;
+    margin-left: 1090px;
+    margin-right: 590px;
+    margin-bottom: 70px;
+    text-align: center;
+    border: 7px solid gray;
+    border-radius: 90px;
+    display: inline-block;
+    padding: 10px 520px;
+    font-size: 130px;
+    text-decoration: none;
+    background-color: aqua;
+    /* color: black; */
+}
+
+header {
+    background-color: aquamarine;
+    border-bottom: 3px double black;
+    padding-top: 200px;
+}
+
+.title {
+    font-size: 400px;
+    color: crimson;
+}
+
+.container_box {
+    background-color: rgba(211, 43, 97, 0.603);
+    border: 2px solid yellow;
+
+}
+
+.container:hover {
+    color: yellow;
+    background-color: red;
+
+
+}
+
+.image img {
+    padding: 5px;
+    margin-left: 300px;
+    /* margin-top: 20px; */
+    border: 2px solid sandybrown;
+
+}
+
+.image {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    color: aqua;
+    border-radius: 100px;
+}
+
+.aboutus {
+    font-size: 57px;
+    background-color: rgb(16, 99, 99);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+    line-height: 100px;
+    text-indent: 3cm;
+}
+
+.aboutus h2 {
+
+    margin-top: 50px;
+    padding-left: 40cm;
+    font-weight: 5000;
+    color: rgba(255, 53, 161, 0.615);
+    letter-spacing: 15px;
+}
+
+.one {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 40pc;
+    font-size: 60px;
+    padding: 20px 500px;
+    background-color: darkorange;
+    border-radius: 5cm;
+}
+
+.two {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    margin-right: 40px;
+    margin-left: 30pc;
+    font-size: 60px;
+    border-radius: 5cm;
+    padding: 20px 500px;
+    background-color: mediumspringgreen;
+}
+
+.midelement h2 {
+    display: inline-block;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    background-color: aqua;
+    color: brown;
+    font-size: 70px;
+    margin-left: 37%;
+    padding: 150px 340px;
+}
+
+.footer {
+    font-size: 75px;
+    background-color: thistle;
+    margin-bottom: 0px;
+    padding: 2pc 90px;
+}
+
+.footer a {
+    border: 2px solid black;
+    border-radius: 3cm;
+    padding: 9px 200px;
+    text-decoration: none;
+    color: rgb(7, 18, 117);
+    margin: 3cm 6cm;
+
+    padding: 10px 90px;
+}
